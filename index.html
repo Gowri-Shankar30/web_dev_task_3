@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Our E-Learning Platform</h1>
+        <p>Expand your knowledge and skills with our wide range of courses.</p>
+        <a href="#courses" class="btn-primary">Explore Courses</a>
+    </section>
+
+    <!-- Courses section -->
+    <section id="courses" class="content-section">
+        <h1>Our Courses</h1>
+        <div class="course-grid">
+            <!-- Course 1 -->
+            <div class="course">
+                <img src="https://via.placeholder.com/300x200.png?text=Course+1" alt="Course 1">
+                <h3>Course 1</h3>
+                <p>Learn the basics of programming with this introductory course.</p>
+                <a href="https://www.geeksforgeeks.org/python-programming-language/" class="btn-secondary" target="_blank">Learn More</a>
+            </div>
+            <!-- Course 2 -->
+            <div class="course">
+                <img src="https://via.placeholder.com/300x200.png?text=Course+2" alt="Course 2">
+                <h3>Course 2</h3>
+                <p>Advanced techniques in web development for experienced learners.</p>
+                <a href="https://www.geeksforgeeks.org/web-development/" class="btn-secondary" target="_blank">Learn More</a>
+            </div>
+            <!-- Course 3 -->
+            <div class="course">
+                <img src="https://via.placeholder.com/300x200.png?text=Course+3" alt="Course 3">
+                <h3>Course 3</h3>
+                <p>Master data analysis with this comprehensive data science course.</p>
+                <a href="https://www.geeksforgeeks.org/data-science/" class="btn-secondary" target="_blank">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Student Dashboard section -->
+    <section id="dashboard" class="content-section">
+        <h1>Student Dashboard</h1>
+        <p>Access your courses, track progress, and manage your profile.</p>
+        <a href="#" class="btn-primary">Go to Dashboard</a>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="content-section">
+        <h1>Contact Us</h1>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 E-Learning Platform</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
